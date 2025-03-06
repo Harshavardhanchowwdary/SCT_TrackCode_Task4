@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins",serif;
+}
+.homepage{
+    border-width: 0px;
+    height: 100vh;
+}
+.imgsize{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+
+.customname1{
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+
+.background{
+    background-color: #ef233c;
+}
+
+#customname{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    transition: 0.7s ease;
+}
+#customname:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.heading{
+    font-weight: 500;
+    font-size: 31px;
+    color: #ef233c;
+}
+.paragraph{
+    font-size: 15px;
+    color: black;
+    padding: 5px;
+}
+.paragraph1{
+    font-size: 13px;
+    color: black;
+}
+.others{
+    font-weight: 600;
+    color: #ef233c;
+    font-style: italic;
+}
+.bcolor{
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #ef233c;
+    color: white;
+    height: 35px;
+    width: 120px;
+    border-radius: 25px;
+    border-width: 0px;
+    transition: 0.6s ease;
+}
+.bcolor:hover{
+    background-color: transparent;
+    color: #ef233c;
+    border: 2px;
+    border-style: solid;
+    border-color: #ef233c;
+    box-shadow: 0 0 20px #ef233c,0 0 20px #ef233c;
+}
+.bcolor1{
+    background-color: transparent;
+    color: #ef233c;
+    border: 2px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: #ef233c;
+    font-size: 13px;
+    font-weight: 500;
+    height: 35px;
+    width: 120px;
+    transition: 0.6s ease;
+}
+.bcolor1:hover{
+    background-color: #ef233c;
+    color: white;
+    box-shadow: 0 0 20px #ef233c,0 0 20px #ef233c;
+}
+.icon{
+    font-size: 35px;
+    color: black;
+    margin: 5px;
+    padding-top:5px;
+    transition: 0.7s ease;
+}
+
+.size1{
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px;
+    border-style: solid;
+    border-color: #ef233c;
+}
+.icon:hover{
+    color: #ef233c;
+}
+.card{
+    text-align: center;
+    border-radius: 10px;
+    border:2px;
+    border-style: solid;
+    border-color: #ef233c;
+}
+.para1{
+    color: #ef233c;
+    font-weight: 500;
+    font-size: 20px;
+}
+.icon1{
+    color: #ef233c;
+    font-size: 35px;
+}
+
+.icon2{
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    transition: 0.6s ease;
+}
+.icon2:hover{
+    color: black;
+}
+
+
+.footersection{
+    background-color: #ef233c;
+    
+}
+.others1{
+    font-weight: 600;
+    font-style: italic;
+    color: white;
+}
+.card2{
+    text-align: center;
+}
+
+.footerlogo{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.othres1{
+    color: white;
+}
+.haaaadaa{
+    font-size: 32px;
+    color: #ef233c;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+.cars{
+    background-color: white;
+    color: #ef233c;
+    transition: 0.5s ease;
+    border:2px;
+    border-style: solid;
+    border-color:#ef233c;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+}
+.cars:hover{
+    background-color: #ef233c;
+    color: white;
+}
+.servicehead{
+    text-align: center;
+    font-weight: 500;
+    font-size: 28px;
+}
+.paaa{
+    font-size: 24px;
+}
+.coloricon{
+    font-size: 35px;
+}
+.servicebutton{
+    background-color: #ef233c;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 13px;
+    height: 35px;
+    width: 120px;
+    border-width:0px;
+}
+.servicebutton:hover{
+    background-color: white;
+    color: #ef233c;
+}
+.servicebutton1{
+    background-color: #ef233c;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 13px;
+    height: 35px;
+    width: 120px;
+    border-width:0px;
+}
+.servicebutton1:hover{
+    background-color: white;
+    color: #ef233c;
+    border:2px;
+    border-style: solid;
+    border-radius: 5px;
+}
+.titls{
+    text-align: center;
+    font-weight: 500;
+    font-size: 28px;
+    color: #ef233c;
+}
+.imgsizeee{
+    height: 80px;
+    width: 80px;
+}
+
+.details{
+    font-size: 15px;
+    color: #ef233c;
+    text-align: center;
+    font-weight: 500;
+    
+}

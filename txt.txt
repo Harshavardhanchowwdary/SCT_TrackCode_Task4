@@ -1,0 +1,93 @@
+                    <div class="card1 d-flex flex-row justify-content-center pt-3">
+                        <i class="fa-brands fa-twitter icon2"></i>
+                        <i class="fa-brands fa-instagram icon2"></i>
+                        <i class="fa-brands fa-facebook icon2"></i>
+                        <i class="fa-brands fa-whatsapp icon2"></i>
+                    </div>
+                    <div class="card2 d-flex flex-column">
+                        <p class="paragraph"><span class="others1">Address:</span>&nbsp; &nbsp;1-512/32 ,GK Nagar
+                            TamilNadu</p>
+                        <p class="paragraph"><span class="others1">Gmail:</span>&nbsp; &nbsp;Flytravels@gmail.com</p>
+                        <p class="paragraph"><span class="others1">Whatsapp:</span>&nbsp; &nbsp;9876576585</p>
+                    </div>
+
+
+
+
+                    .navbar-toggler{
+    border: 0;
+} 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+    outline: none;
+    box-shadow:  none; 
+    border: 0;
+}
+.toggler-icon{
+    width: 32px;
+    height: 5px;
+    background-color: orangered;
+    display: block;
+    transition: all 0.3s;
+} 
+.middle-bar{
+    margin:5px auto;
+}
+.navbar-toggler .top-bar{
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+.navbar-toggler .middle-bar{
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.navbar-toggler .bottom-bar{
+    transform: rotate(-45deg);
+    transform-origin: 10% 10%;
+}
+.navbar-toggler.collapsed .top-bar{
+    transform:rotate(0);
+}
+.navbar-toggler.collapsed .middle-bar{
+    transform:rotate(0);
+}
+.navbar-toggler.collapsed .bottom-bar{
+    transform:rotate(0);
+}
+
+
+
+
+
+
+                <div class="col-12">
+                    <div class="iiicooon d-flex flex-row justify-content-end">
+                        <a href="#ABOUTMEPAGE"><i class="fa-solid fa-circle-arrow-down fa-beat-fade iconcolor1"></i></a>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                https://tse2.mm.bing.net/th?id=OIP.1FHcFRlzEYdoKLhvoXS_EAHaHa&pid=Api&P=0&h=180 
+
+                https://tse2.mm.bing.net/th?id=OIP.EoT-hOW65l5L8x8m5ewVPgHaEK&pid=Api&P=0&h=180 
+
+
+                https://repository-images.githubusercontent.com/483025465/a6e72cfd-7606-47fb-b492-bde505694ed0 
+
+                https://res.cloudinary.com/dkucbuo09/image/upload/v1736870344/cld-sample-4.jpg 
+
+
+                https://tse4.mm.bing.net/th?id=OIP.vobzKu2eJ57NT9YjN_371gHaDY&pid=Api&P=0&h=180 
+
+                https://i.ytimg.com/vi/aKgy6Ug5UVs/maxresdefault.jpg
