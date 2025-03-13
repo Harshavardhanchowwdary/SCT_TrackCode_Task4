@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoWebApp</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body {
+            background-color: linen;
+            font-family: "Poppins",Serif;
+            /* LN Background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .todo-container {
+            background-color: black;
+            /* Black Background */
+            color: linen;
+            /* LN Text */
+            padding: 20px;
+            border-radius: 10px;
+            width: 350px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            color: yellow;
+        }
+
+        input {
+            width: 75%;
+            padding: 8px;
+            border: none;
+            background-color: yellow;
+            color: black;
+            font-weight: 650;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: yellow;
+            color: black;
+            border: 2px solid black;
+            border: none;
+            padding: 8px 15px;
+            margin-left: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: 700;
+        }
+
+        button:hover {
+            background-color: transparent;
+            color: yellow;
+            border: 2px solid yellow;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 15px;
+        }
+
+        li {
+            background-color: yellow;
+            color: black;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .delete-btn {
+            background-color: transparent;
+            color: black;
+            padding: 5px 10px;
+            border: 2px solid black;
+            border-radius: 3px;
+            cursor: pointer;
+            
+            transition: 0.3s ease-in-out;
+        }
+
+        .delete-btn:hover {
+            background-color: black;
+            color: yellow;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <div class="todo-container">
+        <h2>To-Do List</h2>
+        <input type="text" id="taskInput" placeholder="Enter task...">
+        <button onclick="addTask()">Add</button>
+        <ul id="taskList"></ul>
+    </div>
+    <script>
+        function addTask() {
+            let input = document.getElementById("taskInput");
+            let taskText = input.value.trim();
+
+            if (taskText === "") {
+                alert("Please enter a task!");
+                return;
+            }
+
+            let ul = document.getElementById("taskList");
+            let li = document.createElement("li");
+            li.textContent = taskText; // Corrected line (avoids innerHTML issue)
+
+            let deleteBtn = document.createElement("button");
+            deleteBtn.textContent = "Delete";
+            deleteBtn.classList.add("delete-btn");
+            deleteBtn.onclick = function () {
+                ul.removeChild(li);
+            };
+
+            li.appendChild(deleteBtn);
+            ul.appendChild(li);
+
+            input.value = ""; // Clear input field
+        }
+    </script>
+</body>
+
+</html>
